@@ -21,6 +21,10 @@
 .nav1{
     height: 150px;
     background-color: rgb(12, 51, 22);
+    
+}
+.nav1 a{
+    color: aliceblue;
 }
 
 .producto-item{
