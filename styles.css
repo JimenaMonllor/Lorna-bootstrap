@@ -1,4 +1,16 @@
 
+.navbar{
+    background-color: rgb(12, 51, 22);
+
+}
+.navbar a{
+    color: rgb(252, 252, 252);
+}
+.logohoja{
+    height: 150px;
+}
+
+
 .site-footer {
     height: 150px;
     background-color: rgb(12, 51, 22);
@@ -15,16 +27,6 @@
     transform:scale(1.5);
     transition: ease-in-out 1.5s;
     
-}
-
-
-.nav1{
-    height: 150px;
-    background-color: rgb(12, 51, 22);
-    
-}
-.nav1 a{
-    color: aliceblue;
 }
 
 .producto-item{
