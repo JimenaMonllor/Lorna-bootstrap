@@ -1,13 +1,27 @@
-.navbar {
+.container-fluid {
+  width: 100%;
   background-color: rgb(12, 51, 22);
 }
-
-.navbar a {
-  color: rgb(252, 252, 252);
+.container-fluid .logohoja {
+  height: 150px;
+}
+.container-fluid li a {
+  color: rgb(250, 245, 245);
+}
+.container-fluid li a:hover {
+  color: rgb(63, 248, 248);
+  transition: ease-in-out 0.8s;
 }
 
-.logohoja {
-  height: 150px;
+body {
+  background-image: radial-gradient(rgb(100, 248, 179), rgb(190, 241, 170), rgb(100, 248, 179));
+}
+body .producto-item {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 10px;
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
 }
 
 .site-footer {
@@ -15,23 +29,14 @@
   background-color: rgb(12, 51, 22);
   color: rgb(239, 242, 245);
 }
-
-.iconos a {
+.site-footer .iconos a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 25px;
   margin: 10px;
 }
-
-.iconos a i:hover {
+.site-footer .iconos a:hover {
   color: aquamarine;
-  transform: scale(1.5);
-  transition: ease-in-out 1.5s;
-}
-
-.producto-item {
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  transform: scale(1.2);
+  transition: ease-in-out 0.8s;
 }/*# sourceMappingURL=styles.css.map */
