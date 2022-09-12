@@ -20,6 +20,16 @@ body .container {
   transition: ease-in-out 0.8s;
 }
 
+.boton {
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: rgb(65, 95, 65);
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(80, 170, 177);
+}
+
 body {
   background-image: radial-gradient(rgb(100, 248, 179), rgb(190, 241, 170), rgb(100, 248, 179));
 }
