@@ -1,0 +1,11 @@
+@mixin boton($textcolor,$bgColor,$borderColor){
+    border: none;
+    padding: 10px;
+    border-radius: 03px;
+    background-color: $bgColor;
+    color: $textColor;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 03px $borderColor;
+    cursor:pointer;
+
+}

@@ -1,15 +1,15 @@
 .site-footer {
     height: 150px;
-    background-color: rgb(12, 51, 22);
-    color: rgb(239, 242, 245);
+    background-color: map-get($colors,FooterBG);
+    color: map-get($colors,TituloFooterColor);
     .iconos a {
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: map-get($colors,IconosColor);
         font-size: 25px;
         margin: 10px;
 
         &:hover {
-            color: aquamarine;
+            color:map-get($colors, HoverColor);
             transform: scale(1.2);
             transition: ease-in-out 0.8s;
         

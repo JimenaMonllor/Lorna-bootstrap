@@ -1,7 +1,8 @@
 
 .container-fluid {
    width: 100%;
-    background-color: rgb(12, 51, 22);
+    background-color: map-get($colors,HeaderBG ); 
+    
     
 
     .logohoja {
@@ -10,10 +11,10 @@
 
     li {
         a {
-            color: rgb(250, 245, 245);
+            color: map-get($colors,IconosColor);
 
             &:hover {
-                color: rgb(63, 248, 248);
+                color: map-get($colors,HoverColor);
                 transition: ease-in-out 0.8s;
             }
         }

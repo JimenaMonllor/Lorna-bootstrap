@@ -1,0 +1,20 @@
+%FlexRowCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+%FlexRowBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%FlexColumCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
