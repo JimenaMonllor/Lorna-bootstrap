@@ -6,7 +6,6 @@ body .container {
 }
 
 .container-fluid {
-  width: 100%;
   background-image: linear-gradient(to left, rgb(44, 41, 41), rgb(22, 22, 43), rgb(124, 34, 84));
 }
 .container-fluid .logocherry {
