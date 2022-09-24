@@ -1,5 +1,5 @@
 body{
-    background-image:radial-gradient(rgb(100, 248, 179), rgb(190, 241, 170), rgb(100, 248, 179));
+    background-image: linear-gradient(to top, #000000,#333333,#000000);
 
     .container{
     @extend %FlexColumCenter;

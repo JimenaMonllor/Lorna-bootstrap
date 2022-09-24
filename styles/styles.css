@@ -7,16 +7,17 @@ body .container {
 
 .container-fluid {
   width: 100%;
-  background-color: rgb(12, 51, 22);
+  background-image: linear-gradient(to left, rgb(44, 41, 41), rgb(22, 22, 43), rgb(124, 34, 84));
 }
-.container-fluid .logohoja {
+.container-fluid .logocherry {
   height: 150px;
+  border-radius: 100px;
 }
 .container-fluid li a {
   color: rgb(255, 255, 255);
 }
 .container-fluid li a:hover {
-  color: rgb(63, 248, 248);
+  color: rgba(118, 89, 151, 0.986);
   transition: ease-in-out 0.8s;
 }
 
@@ -31,7 +32,7 @@ body .container {
 }
 
 body {
-  background-image: radial-gradient(rgb(100, 248, 179), rgb(190, 241, 170), rgb(100, 248, 179));
+  background-image: linear-gradient(to top, #000000, #333333, #000000);
 }
 body .container .producto-item {
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -43,7 +44,7 @@ body .container .producto-item {
 
 .site-footer {
   height: 150px;
-  background-color: rgb(12, 51, 22);
+  background-color: rgb(39, 39, 39);
   color: rgb(255, 255, 255);
 }
 .site-footer .iconos a {
@@ -53,7 +54,7 @@ body .container .producto-item {
   margin: 10px;
 }
 .site-footer .iconos a:hover {
-  color: rgb(63, 248, 248);
+  color: rgba(118, 89, 151, 0.986);
   transform: scale(1.2);
   transition: ease-in-out 0.8s;
 }/*# sourceMappingURL=styles.css.map */

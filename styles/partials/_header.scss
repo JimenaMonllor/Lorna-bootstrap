@@ -1,12 +1,13 @@
 
 .container-fluid {
    width: 100%;
-    background-color: map-get($colors,HeaderBG ); 
+   background-image: linear-gradient(to left, rgb(44, 41, 41),rgb(22, 22, 43), rgb(124, 34, 84)); 
     
     
 
-    .logohoja {
+    .logocherry {
         height: 150px;
+        border-radius: 100px;
     }
 
     li {
