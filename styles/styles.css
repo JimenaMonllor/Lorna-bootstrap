@@ -43,7 +43,7 @@ body .container .producto-item {
 }
 
 .site-footer {
-  height: 150px;
+  height: 100%;
   background-color: rgb(39, 39, 39);
   color: rgb(255, 255, 255);
 }
