@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="CHERRY COLLINS, ROCKABILLIE, ROCK & ROLL, STRANGER THINGS"> <!--El tutor recomendo que fuera en mayusculas-->
+    <meta name="keywords" content="CHERRY COLLINS, ROCKABILLIE, ROCK & ROLL, STRANGER THINGS">
+    <!--El tutor recomendo que fuera en mayusculas-->
     <link class="icon" rel="shortcut icon" href="../img/cherryLogo.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
@@ -32,7 +33,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
                         </li>
@@ -55,76 +56,58 @@
             </div>
         </nav>
     </header>
-    <main class="container d-flex text-center p-4">
-        <section class="row productos">
-            <div class="producto-item col-12 col-md-6 p-5">
-                <h3>Aji Molido</h3>
-                <img src="https://shop.muru.ar/img/p/5/8/5/585-home_default.jpg" alt="Aji Molido" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
-            <div class="producto-item col-12 col-md-6 p-4">
-                <h3>Aji Cayena</h3>
-                <img src="https://shop.muru.ar/img/p/5/9/5/595-home_default.jpg" alt="Aji Cayena" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
-            <div class="producto-item col-12 col-md-6 p-4">
-                <h3>Albahaca</h3>
-                <img src="https://shop.muru.ar/img/p/5/9/4/594-home_default.jpg" alt="Albahaca" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
-            <div class="producto-item col-12 col-md-6 p-4">
-                <h3>Tomillo</h3>
-                <img src="https://shop.muru.ar/img/p/6/2/4/624-home_default.jpg" alt="Tomillo" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
-            <div class="producto-item col-12 col-md-6 p-4">
-                <h3>Oregano</h3>
-                <img src="https://shop.muru.ar/img/p/5/8/6/586-home_default.jpg" alt="Oregano" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
-            <div class="producto-item col-12 col-md-6 p-4">
-                <h3>Pimentón</h3>
-                <img src="https://shop.muru.ar/img/p/5/8/7/587-home_default.jpg" alt="Pimentón" class="img-fluid">
-                <p>texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                    texto texto texto texto texto
-                </p>
-                <a href="" class="btn btn-success">Comprar</a>
-            </div>
+    <main class="container">
+        <div class="container pt-3 text-white body_style mb-5">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-8 col-lg-8 text-left">
+                    <h2 class="mt-5">Contacto</h2>
+                    <p class="lead">Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te
+                        gustaria, contenido que desees ver o cambios que harias. Recorda que tù opinion es de gran
+                        interes!</p>
+                </div>
+                 
+                <!--Inicio de Formulario-->
+                <form class=" formulario col-12 col-md-4 col-lg-4 mt-5">
+
+                    <div class="form">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Tú Nombre">
+                    </div>
+                    <div class="form">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Tú Apellido">
+                    </div>
+                    <div class="form">
+                        <label for="Domicilio">Domicilio</label>
+                        <input type="text" class="form-control" placeholder="Tú Domicilio">
+                    </div>
+                    <div class="form">
+                        <label for="Telefono">Telefono</label>
+                        <input type="text" class="form-control" placeholder="Tú Telefono">
+                    </div>
+                    <div class="form">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" placeholder="Tú email de contacto">
+                    </div>
+                    <div class="form-group">
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea class="form-control" rows="3"
+                            placeholder="Ingresa el mensaje que nos quieras dejar"></textarea>
+                    </div>
+                    <div>
+                        <label for="tyc">Acepto los terminos y condiciones</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <button type="submit" class="boton">Enviar</button>
+                    <button type="reset" class="boton">Cancelar</button>
+
+                </form>
 
 
-        </section>
-        <div>
-            <button class="boton">Volver</button>
-            <!--No va a ningun lado, para practicar mixins-->
-        </div>
 
+            </div>
+
+    
     </main>
     <!--FIN DE MAIN-->
 
@@ -133,11 +116,11 @@
     <footer class="site-footer text-center p-4">
         <h4>Redes Sociales</h4>
         <div class="iconos">
-            <a ref=""><i class="fa-brands fa-facebook"></i></a>
-            <a ref=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-spotify"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a ref="icono facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a ref="icono twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="icono instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="icono spotify"><i class="fa-brands fa-spotify"></i></a>
+            <a href="icono youtube"><i class="fa-brands fa-youtube"></i></a>
 
             <div>
                 <p> ©2022 SITIO CREADO POR JIMENA MONLLOR</p>
