@@ -1,22 +1,23 @@
-
-.container-fluid {
-   
-   background-image: linear-gradient(to left, rgb(44, 41, 41),rgb(22, 22, 43), rgb(124, 34, 84)); 
-    
-    
+.hd {
+    background-image: linear-gradient(to left, rgb(44, 41, 41), rgb(22, 22, 43), rgb(124, 34, 84));
+    box-shadow: 1px 1px 10px -1px rgba(90, 146, 172, 0.884);
 
     .logocherry {
         height: 150px;
         border-radius: 100px;
+        box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
     }
 
     li {
+        padding-right: 1.6rem;
         a {
-            color: map-get($colors,IconosColor);
+            color: map-get($colors, IconosColor);
+            font-size: 1.1rem;
+            
 
             &:hover {
-                color: map-get($colors,HoverColor);
-                transition: ease-in-out 0.8s;
+                color: map-get($colors, HoverColor);
+                transition: ease-in-out 0.6s;
             }
         }
     }

@@ -1,0 +1,51 @@
+
+h2{
+    color: map-get($map: $colors, $key:_withe) !important;
+}
+
+h1{
+    margin-top: 3rem !important;
+}
+
+iframe{
+    margin: auto ;
+    margin-top: 1rem;
+    height: 5rem;
+    border-radius:1rem;
+    
+}
+
+.videoSize{
+    margin: 2rem 1rem ;
+    height: 15rem;
+    justify-content: center;
+}
+
+.disco{
+    margin: auto;
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+
+    h1{
+        margin-top: 5rem !important;
+    }
+
+    .videoSize{
+        margin: .5rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe{
+        margin: 1rem 0;
+        padding: 0;
+        width: 97%;
+        height: 5rem;
+        border-radius:1rem;
+    }
+
+}

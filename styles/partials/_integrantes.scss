@@ -1,0 +1,68 @@
+.integrantes {
+
+    align-items: center;
+    padding: 50px;
+}
+
+#integrantesTitulo {
+
+    text-align: center;
+    text-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+
+
+}
+
+
+.integrantesContenedor {
+
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px);
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+
+.musico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+    background-image: linear-gradient(to left, rgba(12, 12, 44, 0.527), rgba(65, 37, 65, 0.507));
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+
+
+}
+
+
+#musicoImagen {
+
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+}
+
+
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+
+    .p-5 {
+        padding: 2rem !important;
+    }
+
+    .integrantesContenedor {
+
+        #musicoImagen {
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            padding: 0px;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@mixin b0t0n ($textColor, $bgColor, $borderColor){
+@mixin b0t0n ($textColor, $bgColor, $borderColor) {
     border: none;
     padding: 10px;
     margin: 20px;
@@ -6,6 +6,7 @@
     background-color: $bgColor;
     color: $textColor;
     border-bottom: 03px solid $borderColor;
-    
+    width: 10rem;
+
 
 }

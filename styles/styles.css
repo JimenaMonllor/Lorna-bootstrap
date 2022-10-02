@@ -1,166 +1,250 @@
-body .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-fluid {
+.hd {
   background-image: linear-gradient(to left, rgb(44, 41, 41), rgb(22, 22, 43), rgb(124, 34, 84));
+  box-shadow: 1px 1px 10px -1px rgba(90, 146, 172, 0.884);
 }
-.container-fluid .logocherry {
+.hd .logocherry {
   height: 150px;
   border-radius: 100px;
-}
-.container-fluid li a {
-  color: rgb(255, 255, 255);
-}
-.container-fluid li a:hover {
-  color: rgba(118, 89, 151, 0.986);
-  transition: ease-in-out 0.8s;
-}
-
-/*INICIO DE GALERIA*/
-
-
-
-.galeriaTitulo {
-
-  
-  text-align: center;
-  color: #e0daf0;
-  font-size: 16;
-  padding: 20px;
-}
-
-
-
-@media (min-width:600px){
-.alto{
-  grid-row: span 2;
-}
-}
-
-.galeriaImagenes img {
-  width: 400px;
   box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
-  transition: all 1.5s;
 }
-.galeriaImagenes img:hover {
-  width: 420px;
-  
+.hd li {
+  padding-right: 1.6rem;
 }
-.boton {
-  border: none;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 3px;
-  background-color: rgb(65, 95, 65);
+.hd li a {
   color: rgb(255, 255, 255);
-  border-bottom: 3px solid rgb(80, 170, 177);
+  font-size: 1.1rem;
+}
+.hd li a:hover {
+  color: rgba(118, 89, 151, 0.986);
+  transition: ease-in-out 0.6s;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
 }
 
 body {
   background-image: linear-gradient(to top, #000000, #333333, #000000);
 }
-body .container .producto-item {
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-  padding: 5px;
-  margin: 10px;
-  width: 20rem;
-  background-color: rgb(255, 255, 255);
-}
 
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  body {
+    background-image: linear-gradient(to top, #000000, #333333, #000000);
+  }
+}
 .site-footer {
   height: 100%;
   background-color: rgb(39, 39, 39);
   color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px -1px rgba(240, 208, 230, 0.884);
+  position: relative;
+  bottom: 0;
 }
 .site-footer .iconos a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 25px;
-  margin: 10px;
+  font-size: 2rem;
+  margin: 1rem;
 }
 .site-footer .iconos a:hover {
   color: rgba(118, 89, 151, 0.986);
   transform: scale(1.2);
-  transition: ease-in-out 0.8s;
-
+  transition: ease-in-out 0.6s;
 }
 
+footer {
+  margin-top: 0;
+}
+footer .flex {
+  display: flex;
+  justify-content: center;
+}
+footer span {
+  color: rgba(118, 89, 151, 0.986);
+  font-size: 0.6rem;
+  justify-content: end;
+}
+footer .autor {
+  margin: auto 0;
+}
+footer #lkdn {
+  margin: 0;
+}
+footer #lkdn a {
+  color: rgba(118, 89, 151, 0.986);
+}
 
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .iconos a {
+    font-size: 1.2rem;
+  }
+  footer span {
+    font-size: 0.8rem;
+  }
+}
+.img-Index {
+  display: flex;
+  width: 100vw;
+  min-height: 45vh;
+  justify-content: center;
+  margin: auto;
+}
 
-/*INICIO DE INTEGRANTES*/
-
-.integrantes{
-   
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .img-Index {
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+  }
+}
+.integrantes {
   align-items: center;
   padding: 50px;
 }
 
 #integrantesTitulo {
-  
   text-align: center;
-  
-  
+  text-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
 }
 
-
 .integrantesContenedor {
-
-  display: grid;    
+  display: grid;
   grid-template-columns: repeat(2, 500px);
-  grid-template-rows: repeat(2,500px);
+  grid-template-rows: repeat(2, 500px);
   align-items: center;
   justify-content: center;
   max-width: 100%;
   border-radius: 10px;
-
 }
-
 
 .musico {
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
-  background-image:linear-gradient(to left, rgba(12, 12, 44, 0.527),rgba(65, 37, 65, 0.507));
+  background-image: linear-gradient(to left, rgba(12, 12, 44, 0.527), rgba(65, 37, 65, 0.507));
   width: 450px;
   height: 450px;
   border-radius: 5px;
- 
-
 }
 
-
 #musicoImagen {
-
-  border-radius: 1000px;
+  border-radius: 100%;
   width: 200px;
   height: 200px;
   padding: 0px;
-
 }
 
-
-/*------------INICIO DE CONTACTO-------------*/
-
-.titulo1 {
-  text-align: center;
-  color: #f4f2f7;
-  background-color: #353032;
-  border: #f4f2f7 2px;
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .p-5 {
+    padding: 2rem !important;
+  }
+  .integrantesContenedor #musicoImagen {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }
+}
+.img-Galeria {
+  width: 100vw;
+  justify-content: center;
+  box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
 }
 
+h1 {
+  color: rgba(118, 89, 151, 0.986);
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .img-Galeria {
+    height: 45vh;
+  }
+}
+h2 {
+  color: rgb(255, 255, 255) !important;
+}
+
+h1 {
+  margin-top: 3rem !important;
+}
+
+iframe {
+  margin: auto;
+  margin-top: 1rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.videoSize {
+  margin: 2rem 1rem;
+  height: 15rem;
+  justify-content: center;
+}
+
+.disco {
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  h1 {
+    margin-top: 5rem !important;
+  }
+  .videoSize {
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  iframe {
+    margin: 1rem 0;
+    padding: 0;
+    width: 97%;
+    height: 5rem;
+    border-radius: 1rem;
+  }
+}
 .formulario {
   background-color: rgb(36, 38, 39);
-  border-color: #835069;
-  color: #f1eff7;
+  border: 2px solid #835069;
   border-radius: 10px;
   box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
   font-size: 16px;
-  text-align:center;
+  text-align: center;
+  padding: 5px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.boton {
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: rgb(90, 84, 90);
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(211, 151, 193);
+  width: 10rem;
+}
+.boton:hover {
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: rgb(211, 151, 193);
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(90, 84, 90);
+  width: 10rem;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(118, 89, 151, 0.986);
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  h2 {
+    text-align: left;
+  }
+  .text-left {
+    padding: 1rem 8rem 1rem 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

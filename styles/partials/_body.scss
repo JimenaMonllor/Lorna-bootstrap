@@ -1,18 +1,19 @@
-body{
-    background-image: linear-gradient(to top, #000000,#333333,#000000);
-
-    .container{
-    @extend %FlexColumCenter;
-
-   
-
-.producto-item {
-
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    padding: 5px;
-    margin: 10px;
-    width: 20rem;
-    background-color:  map-get($colors,ProductItemBG);
+.row{
+	--bs-gutter-x: 0 !important; //para que no tenga scroll horizontal provocado por boostrap
 }
+
+body {
+    background-image: linear-gradient(to top, #000000, #333333, #000000);
+    
+
 }
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+
+    body {
+        background-image: linear-gradient(to top, #000000, #333333, #000000);
+    
+       
+    }
+    
 }
