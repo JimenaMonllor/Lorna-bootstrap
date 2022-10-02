@@ -82,6 +82,10 @@ footer #lkdn a {
     font-size: 0.8rem;
   }
 }
+.bIx {
+  height: 100vh;
+}
+
 .img-Index {
   display: flex;
   width: 100vw;
@@ -104,7 +108,6 @@ footer #lkdn a {
 
 #integrantesTitulo {
   text-align: center;
-  text-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
 }
 
 .integrantesContenedor {
@@ -136,11 +139,8 @@ footer #lkdn a {
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-  .p-5 {
-    padding: 2rem !important;
-  }
   .integrantesContenedor #musicoImagen {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 200px;
     height: 200px;
     padding: 0px;
@@ -165,10 +165,6 @@ h2 {
   color: rgb(255, 255, 255) !important;
 }
 
-h1 {
-  margin-top: 3rem !important;
-}
-
 iframe {
   margin: auto;
   margin-top: 1rem;
@@ -176,10 +172,23 @@ iframe {
   border-radius: 1rem;
 }
 
-.videoSize {
-  margin: 2rem 1rem;
-  height: 15rem;
-  justify-content: center;
+#videos-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video {
+  width: 40%;
+  min-width: 260px;
+  max-width: 800px;
+  height: 400px;
+  margin: 1em auto;
+  border-radius: 10px;
+  border: solid 2px #fff;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
 }
 
 .disco {
@@ -187,9 +196,6 @@ iframe {
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-  h1 {
-    margin-top: 5rem !important;
-  }
   .videoSize {
     margin: 0.5rem auto;
     display: flex;
