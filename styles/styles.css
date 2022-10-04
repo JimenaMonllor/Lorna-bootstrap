@@ -107,24 +107,23 @@ footer #lkdn a {
 }
 
 .integrantesContenedor {
-  display: grid;
-  grid-template-columns: repeat(2, 500px);
-  grid-template-rows: repeat(2, 500px);
+  display: block;
   align-items: center;
   justify-content: center;
   max-width: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
   border-radius: 10px;
 }
-
-.musico {
+.integrantesContenedor .musico {
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
   background-image: linear-gradient(to left, rgba(12, 12, 44, 0.527), rgba(65, 37, 65, 0.507));
-  width: 450px;
   height: 450px;
   border-radius: 5px;
+  margin-top: 3rem;
 }
 
 #musicoImagen {
@@ -135,11 +134,26 @@ footer #lkdn a {
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-  .integrantesContenedor #musicoImagen {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    padding: 0px;
+  .integrantesContenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(1, 60vh);
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+  }
+  .integrantesContenedor .musico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+    background-image: linear-gradient(to left, rgba(12, 12, 44, 0.527), rgba(65, 37, 65, 0.507));
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 3rem;
   }
 }
 .img-Galeria {
