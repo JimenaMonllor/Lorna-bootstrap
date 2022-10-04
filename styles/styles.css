@@ -93,7 +93,7 @@ footer #lkdn a {
 @media only screen and (min-width: 768px) and (orientation: landscape) {
   .img-Index {
     display: flex;
-    width: 75vw;
+    width: 100vw;
     justify-content: center;
   }
 }
