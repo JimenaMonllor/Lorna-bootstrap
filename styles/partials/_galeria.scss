@@ -1,19 +1,32 @@
-
-.img-Galeria{
-	width: 100vw;
-	justify-content: center;
+.img-Galeria {
+    width: 100vw;
+    justify-content: center;
     box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+
 }
 
-h1{
-    color: map-get($map: $colors, $key:HoverColor );
+h1 {
+    color: map-get($map: $colors, $key: HoverColor);
     
-   
+
+
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
 
-    .img-Galeria{
-        height: 45vh;
+
+
+    .galeriaImagenes {
+
+        img:hover {
+            width: 400px;        
+        }
+        img {
+            width: 350px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+            transition: all 1.5s;
+
+        }
     }
 }

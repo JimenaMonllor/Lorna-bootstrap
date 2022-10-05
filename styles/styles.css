@@ -167,8 +167,14 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-  .img-Galeria {
-    height: 45vh;
+  .galeriaImagenes img:hover {
+    width: 400px;
+  }
+  .galeriaImagenes img {
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px -1px rgba(252, 252, 252, 0.884);
+    transition: all 1.5s;
   }
 }
 h2 {
