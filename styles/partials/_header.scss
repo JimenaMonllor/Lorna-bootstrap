@@ -1,7 +1,27 @@
 .hd {
-    background-image: linear-gradient(to left, rgb(44, 41, 41), rgb(22, 22, 43), rgb(124, 34, 84));
+    background-image: linear-gradient(140deg, rgb(22, 22, 43),rgb(78, 22, 53),rgb(22, 22, 43),rgb(56, 14, 42));
     box-shadow: 1px 1px 10px -1px rgba(90, 146, 172, 0.884);
+    animation-name: fondo;
+    animation-duration: 90s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    background-size: 500%;
+    
 
+    @keyframes fondo{
+        0%{
+            background-position: 0% 50%;
+
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+             background-position: 0% 50%;
+        }
+        
+    }
+    
     .logocherry {
         height: 150px;
         border-radius: 100px;
